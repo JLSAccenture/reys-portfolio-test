@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+#form-container{
+    margin: 0 auto;
+}
+
+#form-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input{
+    width: 250px;
+    height: 20px;
+}
+
+#message-area{
+    width: 250px;
+    height: 150px;
+}
+
+#form-submit{
+    margin: 15px auto;
+    width: 120px;
+    height: 20px;
+}

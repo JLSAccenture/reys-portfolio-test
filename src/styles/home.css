@@ -1,0 +1,19 @@
+#hero-image{
+    max-width: 75vw;
+    margin-top: 50px;
+}
+
+#about-me-text{
+    max-width: 75vw;
+    margin: 20px auto 0 auto;
+}
+
+#resume-card{
+    margin: 0 5px;
+}
+
+#links-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
