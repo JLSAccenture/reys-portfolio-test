@@ -16,6 +16,11 @@ body {
   background-color: rgb(32,33,36);
 }
 
+section{
+  margin:0;
+  padding:0;
+}
+
 h1 {
   color: white;
   font-size: 45px;

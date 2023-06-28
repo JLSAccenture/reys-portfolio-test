@@ -4,4 +4,21 @@
 
 .project-image{
     width: 250px;
+
+}
+
+
+
+.projects-container{
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+
+    
+}
+
+.project-links-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }

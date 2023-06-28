@@ -1,8 +1,12 @@
 {
     "projects": [
         {
-            "name": "test",
-            "image": "https://www.bairesdev.com/wp-content/uploads/2022/06/Picture6-1.svg"
+            "name": "Natours",
+            "image": "https://res.cloudinary.com/dz060iham/image/upload/v1687992490/Screenshot_2023-06-28_174436_b7utvy.png",
+            "description":"This landing page is a perfect example of a front end design with advance CSS architecture & with the support of SASS, a professional looking clean responsive site for every sizable media which includes animations, & fun effects that makes it appealing to the user.",
+            "project_url":"https://natours-sass-app.netlify.app/",
+            "github":"https://github.com/Reynaldo-AlvarezJr/Natours",
+            "stack":"HTML, SASS, JavaScript"
         },
         {
             "name": "test 2",

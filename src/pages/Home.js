@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Layout>
       {/* <h1>Home Page</h1> */}
-      <div className='upper-container'>
+      <main className='upper-container'>
         <img id='hero-image' src='https://res.cloudinary.com/dz060iham/image/upload/v1684884381/Portfolio_image_copy_ah0csy.jpg' alt='hero'/>
         <p id='about-me-text'>I am a talented designer who loves to be creative and have great ideas for developing meticulous projects with up-to-date software & programming languages. In addition, I have an insatiable desire for knowledge, always up for new challenges that will help me improve my creativity and acquire new web development skills. I'm looking to be a permanent web design student and utilize my capabilities of troubleshooting, critical thinking and problem solving with the right engineering team who I can grow professional with.</p>
 
@@ -31,7 +31,7 @@ const Home = () => {
 
 
 
-      </div>
+      </main>
     </Layout>
   )
 }
