@@ -5,7 +5,8 @@ import '../../styles/rightnav.css'
 const Rightnav = () => {
   return (
     // <div>
-     <nav className='right-nav'>
+    // I changed this from a class to an ID
+     <nav id='right-nav'>
       <ul className='right-nav-links-container'>
         <Link to='/'>
         <li className='right-nav-link'>Home</li>

@@ -1,9 +1,9 @@
-nav.right-nav{
+.right-nav{
     display: flex;
     width:60%;
     height: 100%;
     top:0;
-    right:-450px;
+    right: -450px;
     position:fixed;
     justify-content: center;
     align-items: center;
@@ -13,9 +13,9 @@ nav.right-nav{
 }
 
 .right-nav.open{
-    background: darkgrey;
-    right:0;
-    transition: all 0.5s ease-out;
+    background-color: darkgrey;
+    right: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .right-nav-links-container{
@@ -24,12 +24,12 @@ nav.right-nav{
 
 }
 
-li.right-nav-link {
+.right-nav-link {
     color:red;
     text-align: left;
     width: 60vw;
     height: 4rem;
-    z-index: 50;
-    left:-600px !important ;
+    /* z-index: 50; */
+    /* left: 1400px; */
 }
 

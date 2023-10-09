@@ -19,12 +19,12 @@ const Hamburger = () => {
           <div className="hamburger-icon open"></div>
           <div className="hamburger-icon open"></div>
         </div>
-      <div className='right-nav open'> <Rightnav/> </div>
+      <div className='right-nav open'> <Rightnav onClick={handleClick}/> </div>
       </>
     )
   }
 
-  const isClose = () => {
+  const isClosed = () => {
     return (
       <>
         <div className='hamburger-container' onClick={handleClick}>
@@ -32,13 +32,15 @@ const Hamburger = () => {
           <div className="hamburger-icon"></div>
           <div className="hamburger-icon"></div>
         </div>
-      <div className='right-nav'> <Rightnav/> </div>
+      <div className='right-nav'> 
+        <Rightnav onClick={handleClick}/> 
+      </div>
       </>
     )
   }
 
   return (
-    open ? isOpen() : isClose() 
+    open ? isOpen() : isClosed() 
   )
  
 }
